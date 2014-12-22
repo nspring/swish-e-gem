@@ -1,0 +1,18 @@
+[2007-03-28: REVISION 10]
+
+[CHANGED] Rakefile includes MANIFEST and setup.rb into gem
+
+[FIXED] Bug #8630 where reccount was set to the total number of records and not 
+        the number of the 'current' record
+
+[CHANGED] swishe_base.c to work on my OS X/darwinports installation
+
+
+[2006-11-22: REVISION 9]
+
+[NEW] setup.rb for manual installation
+
+[NEW] license statement clearer
+
+[NEW] low level API similar to the swish-e C-API (in module SwishEWrapper)
+

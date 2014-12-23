@@ -38,8 +38,10 @@ and again, if your system doesn't find the Swish-e library, you need to supply t
  `ruby setup.rb all --  --with-swishe-dir=/opt/swishe/2.4.3/`
 Needles to say that you need to change the path according to your system requirements.
 
-== Other Stuff
+## Other Stuff
 Author:: Patrick Gundlach <patrick <at> gundla.ch>
+
 License::  Copyright (c) 2006 Patrick Gundlach.
            Released under the terms of the MIT license.  See the file MIT-LICENSE
-Reluctant maintainer:: Neil Spring <nspring * cs.umd.edu>
+
+Reluctant maintainer:: Neil Spring 

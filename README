@@ -37,7 +37,6 @@ Needles to say that you need to change the path according to your system require
 
 == Other Stuff
 Author:: Patrick Gundlach <patrick <at> gundla.ch>
-Project Page::  http://www.rubyforge.org/projects/swishe
-Homepage:: (Documentation) http://swishe.rubyforge.org
 License::  Copyright (c) 2006 Patrick Gundlach.
            Released under the terms of the MIT license.  See the file MIT-LICENSE
+Reluctant maintainer:: Neil Spring <nspring * cs.umd.edu>

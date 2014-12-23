@@ -1,5 +1,6 @@
 #!/usr/bin/env ruby
-require 'test/unit'
+
+require 'minitest'
 require "fileutils"
 
 $:.unshift  File.join(File.dirname(__FILE__), "..", "lib")
@@ -12,7 +13,7 @@ require 'swishe'
 DIR=File.expand_path(File.dirname(__FILE__))
 IDX="#{DIR}/index.swish-e"
 
-class TestSwishe < Test::Unit::TestCase
+class TestSwishe < Minitest::Test
   def setup
     unless File.exists?(IDX)
       FileUtils::cd(DIR) do 

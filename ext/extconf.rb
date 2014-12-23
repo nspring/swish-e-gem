@@ -1,4 +1,4 @@
-#!/opt/ruby/1.8/bin/ruby
+#!/usr/bin/env ruby
 
 #  ruby setup.rb all -- --with-swishe-dir=/opt/swishe/2.4.3
 require 'mkmf'

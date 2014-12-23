@@ -26,16 +26,23 @@
 ## Installing the bindings
 
 You have two choices installing the bindings. First, use the gem command, such as
+
     gem install swishe
+ 
 in case the gem command doesn't find the Swish-e C-library you might need to supply the path
 to the library on the gem command line, for example:
+ 
     gem install swishe -- --with-swishe-dir=/opt/swishe/2.4.3/
 
 The other way to install the ruby bindings for Swish-e would be to download the source file
 and run setup.rb manually:
+ 
     ruby setup.rb all
+ 
 and again, if your system doesn't find the Swish-e library, you need to supply those:
+ 
     ruby setup.rb all --  --with-swishe-dir=/opt/swishe/2.4.3/
+ 
 Needles to say that you need to change the path according to your system requirements.
 
 ## Other Stuff

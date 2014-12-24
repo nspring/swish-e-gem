@@ -1,1 +1,7 @@
 ext/Makefile
+ext/mkmf.log
+ext/swishe_base.bundle
+ext/swishe_base.o
+pkg/
+test/index.swish-e
+test/index.swish-e.prop

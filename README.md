@@ -45,6 +45,16 @@ and again, if your system doesn't find the Swish-e library, you need to supply t
  
 Needles to say that you need to change the path according to your system requirements.
 
+## Bundler
+
+In your Gemfile, add:
+
+    gem 'swishe', :git => 'git://github.com/nspring/swish-e-gem.git'
+
+Of course, you'll need swish-e with development headers
+installed `brew install swish-e` or `apt-get install
+swish-e-dev`.
+
 ## Other Stuff
 Author:: Patrick Gundlach <patrick <at> gundla.ch>
 

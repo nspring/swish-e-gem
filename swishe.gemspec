@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.homepage = "https://github.com/nspring/swish-e-gem"
   s.licenses = ["MIT"]
   s.rdoc_options = ["--main", "README.md", "--title", "swish-e ruby bindings documentation"]
-  s.require_paths = ["lib"]
+  s.require_paths = ["lib", "ext"]
   s.rubygems_version = "2.0.14"
   s.summary = "Ruby bindings for swish-e."
   s.test_files = ["test/tc_swishe.rb", "test/unittest.rb"]

@@ -2,7 +2,7 @@ require "rdoc/task"
 require "rake/testtask"
 require "rubygems/package_task"
 
-SWE_VERSION="0.4.2"
+SWE_VERSION="0.4.3"
 
 task :default => [:test]
 
@@ -43,5 +43,5 @@ Gem::PackageTask.new(spec) do |pkg|
 end
 
 file "swishe.gemspec" => "./pkg/swishe-#{SWE_VERSION}.gem" do |t|
-     sh "gem specification ./pkg/swishe-0.4.2.gem --ruby > swishe.gemspec"
+     sh "gem specification ./pkg/swishe-0.4.3.gem --ruby > swishe.gemspec"
 end

@@ -2,11 +2,11 @@
 
 Gem::Specification.new do |s|
   s.name = "swishe"
-  s.version = "0.4.2"
+  s.version = "0.4.3"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Patrick Gundlach", "Neil Spring"]
-  s.date = "2014-12-23"
+  s.date = "2016-11-05"
   s.description = "Wrapper around libswish, a text indexing system."
   s.email = ["nspring@cs.umd.edu"]
   s.extensions = ["ext/extconf.rb"]

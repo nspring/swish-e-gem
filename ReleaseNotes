@@ -1,3 +1,8 @@
+[2016-11-05: 0.4.3]
+
+swish-e 2.4.7 appears to lack the SwishFuzzy symbol.  Omitted from swish-e.i.
+
+
 [2007-03-28: REVISION 10]
 
 [CHANGED] Rakefile includes MANIFEST and setup.rb into gem
@@ -15,4 +20,5 @@
 [NEW] license statement clearer
 
 [NEW] low level API similar to the swish-e C-API (in module SwishEWrapper)
+
 

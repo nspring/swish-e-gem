@@ -256,7 +256,12 @@ class ConfigTable_class
 
 end
 
-c = ::Config::CONFIG
+
+c = if defined?(RbConfig) then
+      RbConfig::CONFIG
+    else
+      ::Config::CONFIG
+    end
 
 rubypath = c['bindir'] + '/' + c['ruby_install_name']
 
@@ -354,7 +359,6 @@ class ConfigTable_class   # open again
     'std-ruby'         => 'stdruby',
     'site-ruby-common' => 'siteruby',     # For backward compatibility
     'site-ruby'        => 'siterubyver',  # For backward compatibility
-    'bin-dir'          => 'bindir',
     'bin-dir'          => 'bindir',
     'rb-dir'           => 'rbdir',
     'so-dir'           => 'sodir',
